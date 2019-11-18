@@ -17,5 +17,4 @@ describe('loading express', function () {
         request(server)
             .get('/foo/bar')
             .expect(404, done);
-    });
 });
